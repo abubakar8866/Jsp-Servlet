@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head><title>Update Student</title></head>
+<body>
+<h2>Update Student</h2>
+<form action="UpdateStudent" method="post">
+    ID to Update: <input type="number" name="id" required><br><br>
+    New Name: <input type="text" name="name"><br><br>
+
+    City:
+    <select name="city">
+        <option value="Mumbai">Mumbai</option>
+        <option value="Delhi">Delhi</option>
+        <option value="Chennai">Chennai</option>
+        <option value="Bangalore">Bangalore</option>
+    </select><br><br>
+
+    Gender:
+    <input type="radio" name="gender" value="Male"> Male
+    <input type="radio" name="gender" value="Female"> Female
+    <input type="radio" name="gender" value="Other"> Other<br><br>
+
+    Hobbies:
+    <input type="checkbox" name="hobby" value="Reading"> Reading
+    <input type="checkbox" name="hobby" value="Sports"> Sports
+    <input type="checkbox" name="hobby" value="Music"> Music<br><br>
+
+    Address: <br>
+    <textarea name="address" rows="3" cols="30"></textarea><br><br>
+
+    Date of Birth:
+    <input type="date" name="dob"><br><br>
+
+    <input type="submit" value="Update">
+</form>
+<br>
+<a href="index.html">Back to Menu</a>
+</body>
+</html>
